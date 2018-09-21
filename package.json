@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JEET",
+  "license": "ISC",
+  "dependencies": {
+    "express-edge": "^1.0.0",
+    "mongoose": "^5.2.16",
+    "startbootstrap-clean-blog": "^4.1.1"
+  }
+}
