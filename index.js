@@ -40,8 +40,11 @@ app.get('/contact.html', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'pages/contact.html'));
 });
  
-app.get('/post.html', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'pages/post.html'));
+app.get('/post/:id', async(req, res) => {
+    const post = await Post.findById(req.params.id);
+    res.render('post',{
+    	post
+    })
 });
 
 app.post('/posts/store',function(req,res){
