@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express-edge": "^1.0.0",
+    "express-fileupload": "^1.0.0-alpha.1",
     "mongoose": "^5.2.16",
     "startbootstrap-clean-blog": "^4.1.1"
   }
